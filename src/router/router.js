@@ -7,9 +7,10 @@ import NavBar from "../components/NavBar.vue"
 
 
 const routes = [
+{path:"/", components:{default:Home, navbar:NavBar}, name:""},
 {path:"/home", components:{default:Home, navbar:NavBar}, name:"home"},
 {path:"/contact", components:{default:Contact, navbar:NavBar}, name:"contact"},
-{path: "/", components:{ default:ProductList,navbar:NavBar},name:"productList"},
+
 
 ];
 
